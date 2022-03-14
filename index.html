@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css.css">
+    <title>Calculadora de Gorjetas</title>
+
+</head>
+<body>
+    <header>
+
+        <h1>Calculadora de gorjetas:</h1>
+
+    </header>
+
+    <form>
+        <div>
+                <label>Digite o valor da conta:</label><br>
+                
+                <input type="text" name="valor"><br>
+
+                <input type="submit" value="Calcular" name="calcular" onclick="calcGorjeta()" return="false"><br>
+
+                <label>Qual a porcentagem da Gorjeta ?</label><br>
+
+                <input type="radio" value="10%" checked id="10%" name="desc">
+                <label for="10">10%?</label><br>
+
+                <input type="radio" value="15%" id="15%" name="desc">
+                <label for="15%">15%?</label><br>
+
+                <input type="radio" value="20%" id="20%" name="desc">
+                <label for="20%">20%?</label><br>
+
+                <p id="output"></p>
+
+                <script src="calc.js"></script>
+        </div>     
+
+    </form>
+
+    
+
+
+    </div>
+
+    
+</body>
+</html>

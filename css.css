@@ -1,0 +1,43 @@
+header{
+    background-color: rgb(189, 93, 93);
+    border: solid 3px;
+    margin-bottom: 15px;
+    color: white;
+
+
+}
+
+body {
+    text-align: center;
+    font-size: larger;
+    background-image: url("bar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+div{
+    background-color: rgb(189, 93, 93);
+    border: solid 3px;
+    font-size: 30px;
+    display: table;
+    margin-left: 450px;
+    margin-top: 50px;
+    color: white;
+    
+
+}
+
+label{
+
+    margin: 15px;
+
+}
+
+input{
+    padding: 5px;
+    margin: 10px;
+
+
+}
